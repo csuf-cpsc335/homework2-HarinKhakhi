@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "autograder",
+      "setup": "g++ -std=c++11 -I/src ./src/*.cpp ./test/*.cpp -o grader",
+      "run": "./grader --github",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 100
+    }
+  ]
+}
